@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column; /* stack elements vertically */
+  align-items: center; /* center horizontally */
+  justify-content: flex-start; /* push to top */
+  min-height: 100vh;
+}
+
+
+.weather-card {
+  min-width: 350px; /* wider than default */
+  width: 100%;      /* make it stretch within its container */
+  margin: 1rem auto; /* add spacing and keep it centered */
+}
