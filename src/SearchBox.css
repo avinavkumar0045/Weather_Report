@@ -2,5 +2,14 @@
 .SearchBox {
     text-align: center;
     align-items: flex-start; 
+
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white layer */
+    backdrop-filter: blur(10px);          /* Background blur */
+    -webkit-backdrop-filter: blur(10px);  /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: white; /* Ensures text is readable */
    
 }

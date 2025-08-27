@@ -22,7 +22,17 @@ export default function InfoBox({info}){
     return (
         <div>
                 
-            <Card className="weather-card">
+            <Card className="weather-card" 
+            sx={{
+                background: "rgba(255,255,255,0.2)",
+                backdropFilter: "blur(10px)",
+                WebkitBackdropFilter: "blur(10px)",
+                borderRadius: "16px",
+                border: "1px solid rgba(255,255,255,0.3)",
+                color: "white",
+                boxShadow: "none"
+              }}
+              >
             <CardMedia
                 sx={{ height: 140 }}
                 image={

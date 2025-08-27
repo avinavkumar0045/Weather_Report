@@ -5,7 +5,7 @@ import InfoBox from "./InfoBox";
 
 export default function WeatherApp(){
     const [weatherInfo , setweatherInfo] = useState({ // creating sample 
-        city : "delhi",
+        city : "New Delhi",
         feelsLike : 24.94,
         tempMin : 24.94,
         tempMax: 24.94,
@@ -20,7 +20,7 @@ export default function WeatherApp(){
     }
     return(
         <div>
-            <h2>Weather App by Avinav</h2>
+            <h2>Weather Report by Avinav</h2>
             <SearchBox updateInfo={updateInfo}/>
             <InfoBox  info={weatherInfo}/>
         </div>
